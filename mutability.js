@@ -3,12 +3,10 @@ const person = {
     age: 77,
     country: 'US',
   }
-const clone1 = person
-const clone2 = person
-Object.freeze(clone1)
-Object.freeze(clone2)
+const clone1 = Object.assign({},person)
+const clone2 = Object.assign({},person)
+
 person.age++
 person.country = "FR"
 
 const samePerson = person
-
