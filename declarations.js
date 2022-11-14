@@ -4,7 +4,7 @@ const obj = {str:"Dulat",num:20,bool:true,undef:undefined}
 const nested = {
     arr: [4,undefined,'2'], 
     obj: {
-        str:"Mirat", 
+        str:"", 
         num:0,
         bool:true
     }
