@@ -9,7 +9,7 @@ function sign(a) {
 }
 
 function sameSign(a,b) {
-    if (a === b) {
+    if (sign(a) === sign(b)) {
         return true
     } else {
         return false
