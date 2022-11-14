@@ -18,7 +18,7 @@ is.def = function(n) {
     return checker('defined',n)
 }
 is.arr = function(n) {
-    return checker('array',n)
+    return Array.isArray(n)
 }
 is.obj = function(n) {
     if (checker('object',n) === false) {
