@@ -1,29 +1,15 @@
-function get(n) {
-    switch (n) {
-        case "num":
-            return sourceObject.num
-        case "bool":
-            return sourceObject.bool
-        case "str":
-            return sourceObject.str
-        case "log":
-            return sourceObject.log
-    }
+const sourceObject = {
+    num: 42,
+    bool: true,
+    str: 'some text',
+    log: console.log,
   }
+  
+function get(n) {
+    return sourceObject[n]
+}
 
 function set(n,val) { 
-    switch (n) {
-        case "num":
-            sourceObject.num = val
-            return sourceObject.num
-        case "bool":
-            sourceObject.num = val
-            return sourceObject.bool
-        case "str":
-            sourceObject.num = val
-            return sourceObject.str
-        case "log":
-            sourceObject.num = val
-            return sourceObject.log
-    }
+    sourceObject[n] = val
+    return sourceObject.n
 }
