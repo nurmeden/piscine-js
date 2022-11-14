@@ -31,7 +31,7 @@ is.truthy = function(n) {
 }
 is.falsy = function(n) {
     return !n
-}yourVariable
+}
 
 function checker(type, n) {
     if (type === typeof(n)) {
