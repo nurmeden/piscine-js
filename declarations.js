@@ -6,8 +6,6 @@ const obj = {
     bool:true,
     undef:undefined
 }
-Object.freeze(obj)
-Object.freeze(arr)
 const nested = {
     arr: [4,undefined,'2'], 
     obj: {
@@ -16,3 +14,4 @@ const nested = {
         bool:true
     }
 }
+Object.freeze(nested.obj,nested.arr)
