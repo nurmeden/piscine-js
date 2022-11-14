@@ -1,4 +1,6 @@
 function concatStr(a,b) {
-    const result = a.concat(b)
+    var str1 = a.toString()
+    var str2 = b.toString()
+    const result = str1.concat(str2)
     return result
 }
