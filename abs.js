@@ -7,5 +7,5 @@ function isPositive(n) {
 }
 
 function abs(digit) {
-    return digit + Infinity
+    return digit + (Infinity-digit)
 }
