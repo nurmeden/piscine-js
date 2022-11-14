@@ -31,10 +31,10 @@ is.fun = function(n) {
     return checker('function',n)
 }
 is.truthy = function(n) {
-    return checker('truthy',n)
+    return !!n
 }
 is.falsy = function(n) {
-    return checker('falsy',n)
+    return !n
 }
 
 function checker(type, n) {
