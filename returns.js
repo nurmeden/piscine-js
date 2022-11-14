@@ -3,5 +3,5 @@ function id(n) {
 }
 
 function getLength(n) {
-    return length(n)
+    return n.length
 }
