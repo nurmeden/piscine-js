@@ -1,8 +1,8 @@
 function more(n) {
-    return n++
+    return n + 1
 }
 function less(n) {
-    return n--
+    return n - 1
 }
 function add(a,b) {
     return a+b
