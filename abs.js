@@ -1,11 +1,10 @@
-function isPositive(n) {
-    if (n >= 0) {
-        return true
-    } else {
+function isPositive(numb){
+    if (numb<=0){
         return false
+    }else{
+        return true
     }
 }
-
 function abs(numb){
     if (numb==0){
         return 0
