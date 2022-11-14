@@ -21,7 +21,7 @@ is.arr = function(n) {
     return Array.isArray(n)
 }
 is.obj = function(n) {
-    return typeof n === 'object' && n !== null
+    return typeof(x)=== 'object' && !is.arr(x) && !is.fun(x) && x!==null
 }
 is.fun = function(n) {
     return checker('function',n)
@@ -31,7 +31,7 @@ is.truthy = function(n) {
 }
 is.falsy = function(n) {
     return !n
-}
+}yourVariable
 
 function checker(type, n) {
     if (type === typeof(n)) {
