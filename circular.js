@@ -1,3 +1,2 @@
-const circular = {
-    circular: new circular
-}
+const circular = {}
+circular.circular = circular
