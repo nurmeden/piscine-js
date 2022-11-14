@@ -4,5 +4,5 @@ function get(n) {
 
 function set(n,val) { 
     sourceObject[n] = val
-    return sourceObject.n
+    return sourceObject[n]
 }
