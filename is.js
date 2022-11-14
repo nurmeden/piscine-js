@@ -15,7 +15,7 @@ is.undef = function(n) {
     return checker('undefined',n)
 }
 is.def = function(n) {
-    return checker('defined',n)
+    return !is.undef(n)
 }
 is.arr = function(n) {
     return Array.isArray(n)
