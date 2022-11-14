@@ -7,5 +7,8 @@ function last(n) {
 }
 
 function kiss(n) {
-    return [first(n),last(n)]
-} 
+    const array = []
+    array.push(last(n))
+    array.push(first(n))
+    return array
+}
