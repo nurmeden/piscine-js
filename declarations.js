@@ -14,4 +14,5 @@ const nested = {
         bool:true
     }
 }
-Object.freeze(nested.obj,nested.arr,obj)
+Object.freeze(nested.obj,nested.arr)
+Object.freeze(arr, obj)
