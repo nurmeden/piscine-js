@@ -3,11 +3,11 @@ const person = {
     age: 77,
     country: 'US',
   }
-  
+const clone1 = person
+const clone2 = person
+
 person.age++
 person.country = "FR"
 
-const clone1 = person
-const clone2 = person
 const samePerson = person
 
