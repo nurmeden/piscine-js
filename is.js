@@ -21,11 +21,7 @@ is.arr = function(n) {
     return Array.isArray(n)
 }
 is.obj = function(n) {
-    if (checker('object',n) === false) {
-        return checker('null',n)
-    } else {
-        return checker('object',n)
-    }
+    return typeof n === 'object' && n !== null
 }
 is.fun = function(n) {
     return checker('function',n)
