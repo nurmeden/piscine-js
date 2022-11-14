@@ -1,4 +1,4 @@
-function dispositive(n) {
+function isPositive(n) {
     if (n % 2 == 0) {
         return true
     } else {
