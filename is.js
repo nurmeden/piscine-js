@@ -3,7 +3,7 @@ is.num = function(n) {
     return checker('number',n)
 }
 is.nan = function(n) {
-    if (isNaN(n) === true) {
+    if (isNaN(n) === false) {
         return true
     } else {
         return false
