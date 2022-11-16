@@ -5,5 +5,3 @@ function repeat(strs,number) {
     }
     return str
 }
-
-console.log(repeat('a',3))
