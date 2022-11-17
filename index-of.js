@@ -8,13 +8,12 @@ function indexOf(arr,word,start=0) {
 }
 
 function lastIndexOf(arr,word, end=arr.length) {
-    var idx = -1
     for (let i = arr.length; i >= 0; i-- ) {
         if (arr[i] === word) {
-            idx = i
+            return i
         }
     }
-    return idx
+    return -1
 }
 
 function includes(arr,word) {
@@ -25,3 +24,5 @@ function includes(arr,word) {
     }
     return false
 }
+
+console.log(lastIndexOf([1, 2, 3, 4, 5, 4, 3, 2, 1], 2))
