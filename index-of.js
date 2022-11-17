@@ -7,9 +7,9 @@ function indexOf(arr,word,start=0) {
     return -1
 }
 
-function lastIndexOf(arr,word) {
+function lastIndexOf(arr,word, end=arr.length) {
     var idx = -1
-    for (let i = 0; i < arr.length; i++ ) {
+    for (let i = arr.length; i >= 0; i-- ) {
         if (arr[i] === word) {
             idx = i
         }
