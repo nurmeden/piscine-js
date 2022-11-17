@@ -1,5 +1,5 @@
-function indexOf(arr,word) {
-    for (let i = 0; i < arr.length; i++ ) {
+function indexOf(arr,word,start) {
+    for (let i = start; i < arr.length; i++ ) {
         if (arr[i] === word) {
             return i
         } 
