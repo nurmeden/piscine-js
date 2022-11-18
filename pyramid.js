@@ -10,4 +10,3 @@ function pyramid(str,numb){
     } 
     return res
 }
-
