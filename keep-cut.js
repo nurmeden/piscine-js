@@ -23,3 +23,4 @@ function keepFirstLast(s) {
     b = s.slice(s.length-2)
     return a + b
 }
+
