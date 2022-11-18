@@ -19,9 +19,12 @@ function keepLast(s) {
 }
 
 function keepFirstLast(s) {
+   if (s.length <= 3) {
+    return s
+   }
    let a = s.slice(0,2)
    let b = s.slice(s.length-2)
    return a + b
 }
 
-console.log(keepFirstLast('abcdef'))
+console.log(keepFirstLast('af'))
