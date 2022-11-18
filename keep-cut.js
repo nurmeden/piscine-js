@@ -1,11 +1,25 @@
 function cutFirst(s) {
-    var newstr = s.replace(s[0],'')
-    newstr = s.replace(s[0],'')
-    return newstr
+    return s.slice(2)
 }
 
 function cutLast(s) {
-    var newstr = s.replace(s[s.length-1],'')
-    newstr = s.replace(s[s.length-1],'')
-    return s
+    return s.slice(0,s.length-2)
+}
+
+function cutFirstLast(s) {
+    return s.slice(2,s.length-2)
+}
+
+function keepFirst(s) {
+    return s.slice(0,2)
+}
+
+function keepLast(s) {
+    return s.slice(s.length-2)
+}
+
+function keepFirstLast(s) {
+    a = s.slice(0,2)
+    b = s.slice(s.length-2)
+    return a + b
 }
