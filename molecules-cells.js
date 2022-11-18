@@ -7,7 +7,7 @@ let molecules = {
 function RNA(s) {
     let result = ""
     if (s.length > 0) {
-        for (i = 0 ; i < s.length; i++) {
+        for (let i = 0 ; i < s.length; i++) {
             if (s[i] === "G") {
                 result += molecules.prop1[1]
             } else if (s[i] === "C") {
@@ -25,7 +25,7 @@ function RNA(s) {
 function DNA(s) {
     let result = ""
     if (s.length > 0) {
-        for (i = 0 ; i < s.length; i++) {
+        for (let i = 0 ; i < s.length; i++) {
             if (s[i] === "G") {
                 result += molecules.prop2[0]
             } else if (s[i] === "C") {
@@ -39,3 +39,5 @@ function DNA(s) {
     }
     return result
 }
+
+console.log(RNA('TAGC'))
