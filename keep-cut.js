@@ -19,7 +19,9 @@ function keepLast(s) {
 }
 
 function keepFirstLast(s) {
-    a = s.slice(0,2)
-    b = s.slice(s.length-2)
-    return a + b
+   let a = s.slice(0,2)
+   let b = s.slice(s.length-2)
+   return a + b
 }
+
+console.log(keepFirstLast('abcdef'))
