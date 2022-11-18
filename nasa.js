@@ -1,7 +1,7 @@
 function nasa(n) {
     let result = ""
-    for (let i = 0; i <= n; i++) {
-        if (i != 0) {
+    for (let i = 1; i <= n; i++) {
+        if (i != 1) {
             if (i % 3 === 0 && i % 5 === 0) {
                 result += " " + "NASA"
             } else if (i % 3 === 0) {
@@ -17,3 +17,5 @@ function nasa(n) {
     }
     return result
 }
+
+console.log(nasa(15))
