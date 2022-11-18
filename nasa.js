@@ -17,5 +17,3 @@ function nasa(n) {
     }
     return result
 }
-
-console.log(nasa(15))
