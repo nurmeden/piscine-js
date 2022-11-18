@@ -39,5 +39,3 @@ function DNA(s) {
     }
     return result
 }
-
-console.log(RNA('TAGC'))
