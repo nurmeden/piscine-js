@@ -1,6 +1,4 @@
-
-func
-tion citiesOnly(states){
+function citiesOnly(states){
     let array = states.map(cites =>{
         return cites.city
     })
