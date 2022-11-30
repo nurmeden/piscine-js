@@ -1,6 +1,4 @@
-
-func
-tion pick(obj,strArr){
+function pick(obj,strArr){
     let obj1={}
     Object.keys(obj).forEach(key=>{
       if (typeof strArr==='string'){
